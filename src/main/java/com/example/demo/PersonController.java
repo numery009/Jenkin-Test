@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class PersonController {
 	@GetMapping("/get")
 	public String message() {
-		return "Hello world!";
+		return "Hello world! I am updated.";
 	}
 }
